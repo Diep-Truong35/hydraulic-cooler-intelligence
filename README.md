@@ -78,7 +78,7 @@ The Power BI report, `powerbi/Hydraulic_Cooler_Intelligence.pbix`, contains four
 
 ### 01 — Executive Overview
 
-[View the Executive Overview screenshot](screenshots/01-Executive-Overview.png)
+![Hydraulic Cooler Intelligence — Executive Overview](screenshots/01-Executive-Overview.png)
 
 Summary KPIs, overall error comparison, and the provisional engineering recommendation. Baseline-specific KPI values are labeled as such.
 
