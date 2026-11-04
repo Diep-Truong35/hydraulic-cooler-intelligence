@@ -10,6 +10,14 @@ This project compares a simple temperature-based alert rule with a multi-sensor 
 
 > **Main finding:** In the tested five-fold, group-aware validation procedure, the simpler temperature baseline produced **15 unnecessary alerts and 9 missed near-failure cycles**, versus **80 unnecessary alerts and 11 missed near-failure cycles** for the multi-sensor Random Forest. The evidence supports retaining the temperature rule as the **comparison baseline for further investigation**, not deploying a fixed alert threshold.
 
+
+## Explore the Project
+
+- 📊 [Power BI Dashboard](powerbi/Hydraulic_Cooler_Intelligence.pbix)
+- 🐍 [Python Analysis Notebook](notebooks/)
+- 📁 [Processed Validation Datasets](data/processed/model_comparison/)
+- 🖼️ [Dashboard Screenshots](screenshots/)
+
 ## Project at a glance
 
 | Area | Details |
