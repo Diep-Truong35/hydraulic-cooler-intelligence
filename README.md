@@ -6,7 +6,7 @@
 
 This project compares a simple temperature-based alert rule with a multi-sensor Random Forest and turns the findings into a four-page interactive Power BI dashboard. The focus is on engineering decision support: **detecting degraded cooler conditions while avoiding unnecessary alerts**, understanding where models fail, and evaluating the evidence required before a real-world pilot.
 
-![Hydraulic Cooler Intelligence — Executive Overview](screenshots/01_Executive_Overview.png)
+![Hydraulic Cooler Intelligence — Executive Overview](	screenshots/01-Executive-Overview.png)
 
 > **Main finding:** In the tested five-fold, group-aware validation procedure, the simpler temperature baseline produced **15 unnecessary alerts and 9 missed near-failure cycles**, versus **80 unnecessary alerts and 11 missed near-failure cycles** for the multi-sensor Random Forest. The evidence supports retaining the temperature rule as the **comparison baseline for further investigation**, not deploying a fixed alert threshold.
 
@@ -70,19 +70,19 @@ The Power BI report, `powerbi/Hydraulic_Cooler_Intelligence.pbix`, contains four
 
 ### 01 — Executive Overview
 
-[View the Executive Overview screenshot](screenshots/01_Executive_Overview.png)
+[View the Executive Overview screenshot](screenshots/01-Executive-Overview.png)
 
 Summary KPIs, overall error comparison, and the provisional engineering recommendation. Baseline-specific KPI values are labeled as such.
 
 ### 02 — Model Comparison
 
-![Model Comparison](screenshots/02_Model_Comparison.png)
+![Model Comparison](screenshots/02-Model-Comparison.png)
 
 Detection errors by fold, cooler-condition distribution, and method-specific thresholds. The temperature thresholds are in **°C**, while forest score thresholds are **unitless** and are not numerically comparable.
 
 ### 03 — Alert Optimization
 
-![Alert Threshold Exploration](screenshots/03_Alert_Optimization.png)
+![Alert Threshold Exploration](screenshots/03-Threshold-Exploration.png)
 
 An interactive what-if temperature slider updates detection rate, false-alert rate, missed degradation counts, and a dynamic interpretation. A threshold-sweep chart shows the retrospective trade-off across 35–58°C.
 
