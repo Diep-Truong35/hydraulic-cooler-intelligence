@@ -6,7 +6,7 @@
 
 This project compares a simple temperature-based alert rule with a multi-sensor Random Forest and turns the findings into a four-page interactive Power BI dashboard. The focus is on engineering decision support: **detecting degraded cooler conditions while avoiding unnecessary alerts**, understanding where models fail, and evaluating the evidence required before a real-world pilot.
 
-![Hydraulic Cooler Intelligence — Executive Overview](	screenshots/01-Executive-Overview.png)
+![Hydraulic Cooler Intelligence — Executive Overview](screenshots/01-Executive-Overview.png)
 
 > **Main finding:** In the tested five-fold, group-aware validation procedure, the simpler temperature baseline produced **15 unnecessary alerts and 9 missed near-failure cycles**, versus **80 unnecessary alerts and 11 missed near-failure cycles** for the multi-sensor Random Forest. The evidence supports retaining the temperature rule as the **comparison baseline for further investigation**, not deploying a fixed alert threshold.
 
@@ -98,7 +98,7 @@ An interactive what-if temperature slider updates detection rate, false-alert ra
 
 ### 04 — Engineering Diagnostics
 
-![Engineering Diagnostics](screenshots/04_Engineering_Diagnostics.png)
+![Engineering Diagnostics](screenshots/04-Engineering-Diagnostics.png)
 
 Rates of healthy false alerts and near-failure misses by stable versus flagged unstable cycles. The observed subgroup difference motivates further engineering investigation; **it does not establish that instability caused the errors**.
 
