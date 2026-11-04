@@ -1,0 +1,13 @@
+model,cooler_condition,unstable_flag,cycles,error_type,errors,error_rate_pct
+Temperature baseline,3,0,360,Missed degradation,0,0.0
+Temperature baseline,3,1,228,Missed degradation,9,3.9473684210526314
+Temperature baseline,20,0,360,Missed degradation,0,0.0
+Temperature baseline,20,1,38,Missed degradation,0,0.0
+Temperature baseline,100,0,369,Unnecessary alert,0,0.0
+Temperature baseline,100,1,249,Unnecessary alert,15,6.024096385542169
+Multi-sensor forest,3,0,360,Missed degradation,0,0.0
+Multi-sensor forest,3,1,228,Missed degradation,11,4.824561403508772
+Multi-sensor forest,20,0,360,Missed degradation,0,0.0
+Multi-sensor forest,20,1,38,Missed degradation,0,0.0
+Multi-sensor forest,100,0,369,Unnecessary alert,1,0.27100271002710025
+Multi-sensor forest,100,1,249,Unnecessary alert,79,31.72690763052209

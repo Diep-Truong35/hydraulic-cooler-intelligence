@@ -1,0 +1,3 @@
+cycles,detected,missed,unnecessary_alerts,correctly_clear,missed_near_failure,missed_reduced_efficiency,detection_rate_pct,false_alert_rate_pct,accuracy_pct,balanced_accuracy_pct,flagged_cycle_rate_pct,model
+1604,977,9,15,603,9,0,99.08722109533468,2.4271844660194173,98.50374064837905,98.33001831465764,61.84538653366584,Temperature baseline
+1604,975,11,80,538,11,0,98.88438133874239,12.944983818770227,94.32668329177058,92.96969875998609,65.77306733167082,Multi-sensor forest
